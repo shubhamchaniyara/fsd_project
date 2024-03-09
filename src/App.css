@@ -1,0 +1,46 @@
+
+body {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif; /* Use a common font stack for better compatibility */
+}
+
+.box {
+  border: 1px solid #dfdfdf;
+  background-color: #fff;
+  max-width: 400px; /* Set a max-width to avoid stretching the box too much */
+  padding: 20px;
+  border-radius: 5px; /* Add some rounded corners for a modern look */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow for depth */
+}
+
+/* Button styles */
+.g-btn {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 15px;
+  text-align: center; /* Center the text */
+  background-color: #007bff; /* Blue color, you can change it to fit your design */
+  color: #fff; /* White text color for better contrast */
+  border: none; /* Remove border for a cleaner look */
+  border-radius: 3px; /* Add some rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Add smooth transition effect */
+}
+
+.g-btn:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+
+/* Icon styles */
+.g-btn > div,
+.g-btn > div > svg {
+  width: 24px; /* Adjust icon size */
+  height: 24px;
+  margin-right: 10px; /* Add some spacing between icon and text */
+}
